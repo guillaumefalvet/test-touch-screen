@@ -6,11 +6,15 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "start":"vite --host 0.0.0.0 --port 3000",
+    "start": "node index.cjs",
     "preview": "vite preview --port 8080"
   },
   "devDependencies": {
+    "ts-node": "^10.9.2",
     "typescript": "^5.2.2",
     "vite": "^5.2.0"
+  },
+  "dependencies": {
+    "express": "^4.19.1"
   }
 }
